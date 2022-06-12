@@ -3,10 +3,10 @@ public class Marcador{
 	public int intentos;
 	public int resultadototal;
 
+	public Marcador (int tiempojuego, int intentos, int resultadototal){
 	
-	public void Marcador (int tiempojuego, int intentos, int resultadototal) {
-	this.tiempojuego = tiempojuego + newtiempojuego;
+	this.tiempojuego = tiempojuego;
 	this.intentos = intentos;
-	this.resultadototal = puntaje * intentos/ tiempojuego;
+	this.resultadototal = resultadototal;
 	}
 }
